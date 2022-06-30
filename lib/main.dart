@@ -1,5 +1,9 @@
+// ignore_for_file: unnecessary_const
+
 import 'package:flutter/material.dart';
 import 'package:food_api_app/views/home.dart';
+
+import 'views/widgets/AppBarColor.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Food recipe',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Palette.kToDark,
         primaryColor: Colors.white,
         // ignore: prefer_const_constructors
         textTheme: TextTheme(
